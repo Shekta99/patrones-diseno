@@ -11,11 +11,11 @@ yarn
 ## Ejemplo para correr las pruebas de un patrón:
 
 ```shell
-yarn test patterns/decorator
-yarn test patterns/observer
-yarn test patterns/facade
-yarn test patterns/adapter
-yarn test patterns/state
+yarn test patterns/1-decorator
+yarn test patterns/2-observer
+yarn test patterns/3-facade
+yarn test patterns/4-adapter
+yarn test patterns/5-state
 ```
 
 ## Correr todas las pruebas:
