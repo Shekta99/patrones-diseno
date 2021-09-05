@@ -1,4 +1,4 @@
-import { EnhancedAutopilot, ModelS } from "../../models";
+import { EnhancedAutopilot, ModelS } from "./decorator";
 
 describe("decorator pattern", () => {
   it("should decorate an tesla model S", () => {
@@ -9,5 +9,6 @@ describe("decorator pattern", () => {
     expect(myEnhancedTesla.getDescription()).toEqual(
       "Model S, enhanced autopilot"
     );
+    expect(myEnhancedTesla.cost()).toEqual(78000);
   });
 });

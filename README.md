@@ -12,4 +12,16 @@ yarn
 
 ```shell
 yarn test patterns/decorator
+yarn test patterns/observer
+yarn test patterns/facade
+yarn test patterns/adapter
+yarn test patterns/state
 ```
+
+# Implementa los siguientes patrones en TypeScript para que todas las pruebas unitarias pasen
+
+- [Decorator](https://refactoring.guru/design-patterns/decorator)
+- [Observer](https://refactoring.guru/design-patterns/observer)
+- [Facade](https://refactoring.guru/design-patterns/facade)
+- [Adapter](https://refactoring.guru/design-patterns/adapter)
+- [State Pattern](https://refactoring.guru/design-patterns/state)
