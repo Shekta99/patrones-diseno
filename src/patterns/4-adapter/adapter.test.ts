@@ -1,5 +1,5 @@
 describe("adapter pattern", () => {
-  it("???", () => {
+  it("??? ", () => {
     // TODO
     throw new Error("Not implemented yet");
   });

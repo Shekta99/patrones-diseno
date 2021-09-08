@@ -24,7 +24,9 @@ yarn test patterns/5-state
 yarn test
 ```
 
-# Implementa los siguientes patrones en TypeScript para que todas las pruebas unitarias pasen
+# Objetivo:
+
+Implementa los siguientes patrones en TypeScript para que todas las pruebas unitarias pasen
 
 - [Decorator](https://refactoring.guru/design-patterns/decorator)
 - [Observer](https://refactoring.guru/design-patterns/observer)
