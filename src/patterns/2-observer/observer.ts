@@ -67,7 +67,11 @@ export class Fan implements Observer {
   }
 
   update(temperature: number): void {
-    throw new Error("Method not implemented.");
+    if (temperature > 30) {
+      this.turnOn();
+    } else if (temperature < 25) {
+      this.turnOff();
+    }
   }
 
   getState(): FanState {
